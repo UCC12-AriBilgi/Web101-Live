@@ -3,30 +3,72 @@
 <head>
     <meta charset="utf-8" />
     <title>.: HTML Tablolar :.</title>
+    <style>
+        #mevsimler-aylar{
+            border:2px solid red;
+            border-spacing:10px;
+        }
+
+        tr,td{
+            /* dokümanın içinde karşılastığın tr td etiketleri için uygula*/
+            border:1px dashed silver;
+        }
+
+            td:nth-child(1) {
+                background-color: black;
+                color: red;
+                border: 1px solid silver;
+            }
+
+        th{
+            background-color:red;
+            color:white;
+        }
+
+    </style>
 </head>
 <body>
     <!--3 satır 4 kolondan oluşan bir tablo(table) tanımlanması-->
     <p style="font-family:Verdana;font-size:14px;font-weight:bold;">Mevsimler</p>
 
-    <table style="width:100%;">
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
+    <table id="mevsimler-aylar">
+        <thead>
+            <th>Mevsim/Ay</th>
+            <th>1.Ay</th>
+            <th>2.Ay</th>
+            <th>3.Ay</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>KIŞ</td>
+                <td>Aralık</td>
+                <td>Ocak</td>
+                <td>Şubat</td>
+            </tr>
+            <tr>
+                <td>İLKBAHAR</td>
+                <td>Mart</td>
+                <td>Nisan</td>
+                <td>Mayıs</td>
+            </tr>
+            <tr>
+                <td>YAZ</td>
+                <td>Haziran</td>
+                <td>Temmuz</td>
+                <td>Ağustos</td>
+            </tr>
+            <tr>
+                <td>SONBAHAR</td>
+                <td>Eylül</td>
+                <td>Ekim</td>
+                <td>Kasım</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td colspan="3">Burası da değişik bir yapıda....</td>
+        </tfoot>
+
     </table>
 
 </body>
