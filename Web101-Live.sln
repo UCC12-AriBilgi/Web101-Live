@@ -69,6 +69,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "P03_HTML-Tablolar", "P03_HT
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "P04_HTML-Baglantilar", "P04_HTML-Baglantilar\", "{9B25E626-302B-4353-87F9-BA3F96E4FA1F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51312"
+		Debug.AspNetCompiler.PhysicalPath = "P04_HTML-Baglantilar\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51312\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51312"
+		Release.AspNetCompiler.PhysicalPath = "P04_HTML-Baglantilar\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51312\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51312"
+		SlnRelativePath = "P04_HTML-Baglantilar\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +102,8 @@ Global
 		{3A52068C-F4A3-4CCB-85FF-310486271999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0271C77-592D-411B-AE88-67603C79011B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D0271C77-592D-411B-AE88-67603C79011B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B25E626-302B-4353-87F9-BA3F96E4FA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B25E626-302B-4353-87F9-BA3F96E4FA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
