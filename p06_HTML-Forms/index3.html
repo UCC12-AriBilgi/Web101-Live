@@ -5,21 +5,40 @@
     <title></title>
 </head>
 <body>
-    <label for="films">Favori film tipi</label>
-    <select id="films" name="films">
-        <option value="Korku">Korku</option>
-        <option value="Komedi">Komedi</option>
-        <option value="Drama">Drama</option>
-        <option value="Aksiyon">Aksiyon</option>
-    </select>
-    <hr />
-    <br />
-    <label for="cars">Favori arabanız</label>
-    <select id="cars" name="cars" multiple> <!--Listbox gibi oldu-->
-        <option value="VolvoXC70">Volvo XC70</option>
-        <option value="VolvoV60">Volvo V60</option>
-        <option value="Renault">Renault</option>
-        <option value="FordC">Ford Challenger</option>
-    </select>
+    <form>
+        <label for="films">Favori film tipi</label>
+        <select id="films" name="films">
+            <option value="Korku">Korku</option>
+            <option value="Komedi">Komedi</option>
+            <option value="Drama">Drama</option>
+            <option value="Aksiyon">Aksiyon</option>
+        </select>
+        <hr />
+        <br />
+        <label for="cars">Favori arabanız</label>
+        <select id="cars" name="cars" multiple>
+            <!--Listbox gibi oldu-->
+            <option value="VolvoXC70">Volvo XC70</option>
+            <option value="VolvoV60">Volvo V60</option>
+            <option value="Renault">Renault</option>
+            <option value="FordC">Ford Challenger</option>
+        </select>
+        <hr />
+        <br />
+        <textarea name="bilgi" rows="20" cols="40">
+        Burası bir textarea dır...
+    </textarea>
+        <hr />
+        <br />
+        <label for="uid">Kullanıcı ID</label>
+        <input type="text" id="uid" name="uid" /><br />
+        <label for="passw">Kullanıcı Şifre</label>
+        <input type="password" id="passw" name="passw" /><br />
+        <hr />
+        <br />
+        <input type="reset" value="Temizle" />
+
+    </form>
+
 </body>
 </html>
