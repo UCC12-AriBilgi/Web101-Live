@@ -7,3 +7,15 @@ article : Bağımsız içerikleri ve bazı makale türü içerikleri tanımlar b
 figure : Herhangi bir görsel içerik tanımlar.
 
 section : Sayfa içersinde bir bölge/bölümü tanımlamak için kullanılır
+
+details : Sayfamızda bazı ek tanımlamalar yapmamızı sağlıyor.
+
+footer : Sayfamızda bir alt bilgi tanımlaması yapar
+
+aside : Kenar kısımlarında yeralan bölümleri tanımlamak için kullanılır
+
+nav : Site/sayfa içersinde menüler, linkler gibi elemanları içerirler.
+
+--------------------
+
+Div etiketi (Bloklama gibi yapılarda kullanılan bir etiket)
