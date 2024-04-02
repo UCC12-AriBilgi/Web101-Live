@@ -1,0 +1,9 @@
+﻿HTML5 ile birlikte yeni gelen ek semantic(anlamsal) olarak adlandırılan bazı elementler(tag) var.
+
+header : Sayfa içinde ayrı bir şekilde bir baslık kısmı tanımlamayı sağlar.
+
+article : Bağımsız içerikleri ve bazı makale türü içerikleri tanımlar barındırır
+
+figure : Herhangi bir görsel içerik tanımlar.
+
+section : Sayfa içersinde bir bölge/bölümü tanımlamak için kullanılır
