@@ -71,3 +71,15 @@ img{
 #p4{
     visibility:hidden;
 }
+
+.secici{
+    text-align:center;
+    font-size:40px;
+    font-family:'Segoe UI';
+    color:white;
+    display: block;
+    margin:40px;
+    padding:20px;
+    background:#c00;
+    background-size:cover;
+}
