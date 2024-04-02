@@ -157,6 +157,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "P07_HTML-SemanticWeb", "P07
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "P08_HTML-CSSDetails", "P08_HTML-CSSDetails\", "{3CA8A6CB-45CE-4153-8E4C-FDF3577C7134}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62231"
+		Debug.AspNetCompiler.PhysicalPath = "P08_HTML-CSSDetails\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62231\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62231"
+		Release.AspNetCompiler.PhysicalPath = "P08_HTML-CSSDetails\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62231\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62231"
+		SlnRelativePath = "P08_HTML-CSSDetails\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -176,6 +198,8 @@ Global
 		{CFFF5417-8942-4C01-8E56-9F791C2D155E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CB76910-A9A9-4307-8298-58453F3AFADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1CB76910-A9A9-4307-8298-58453F3AFADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA8A6CB-45CE-4153-8E4C-FDF3577C7134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA8A6CB-45CE-4153-8E4C-FDF3577C7134}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

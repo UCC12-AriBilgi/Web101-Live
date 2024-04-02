@@ -1,0 +1,41 @@
+﻿body {
+    margin:10px;
+    border:1px solid black;
+}
+
+div{
+    padding:20px;
+    border:2px solid brown;
+    margin:10px;
+}
+
+#div1{
+    width:20em;
+}
+#div2 {
+    width: 20ex;
+}
+#div3 {
+    width: 20px;
+}
+#div4 {
+    width: 20in;
+}
+#div5 {
+    width: 20mm;
+}
+#div6 {
+    width: 20em;
+}
+#div7 {
+    width: 20cm;
+}
+#div8 {
+    width: 20pt;
+}
+#div9 {
+    width: auto;
+}
+#div10 {
+    width: 70%;
+}
