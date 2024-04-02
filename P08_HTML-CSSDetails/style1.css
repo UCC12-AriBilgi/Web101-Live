@@ -60,3 +60,14 @@ img{
     top:100px;
     height:200px;
 }
+
+#p2{
+    display:none; /*Tamamen ekrandan kaldırmak için*/
+}
+
+#p3 {
+    visibility: hidden;
+}
+#p4{
+    visibility:hidden;
+}
