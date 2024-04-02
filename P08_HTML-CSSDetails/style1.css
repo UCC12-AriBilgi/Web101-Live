@@ -38,3 +38,25 @@ p{
     background:blue;
     color:white;
 }
+
+.grup{
+    display:block;
+    color:red;
+}
+
+.grup1{
+    display:inline;
+    color:red;
+    border-style:double;
+}
+
+.imgcls{
+    display:inline;
+    height:100px;
+}
+
+img{
+/*    display:block;*/
+    top:100px;
+    height:200px;
+}
