@@ -30,7 +30,7 @@ p:first-child{
 
 p:first-child b{
     color:red;
-    background-color:red;
+    /*background-color:red;*/
 }
 
 /* index3 3.örnek*/
