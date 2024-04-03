@@ -1,0 +1,10 @@
+﻿body {
+}
+
+p::after{
+    content : url(cicek.jpg);
+}
+
+p::before {
+    content: url(cicek.jpg);
+}

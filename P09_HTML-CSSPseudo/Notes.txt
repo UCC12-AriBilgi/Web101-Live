@@ -1,0 +1,19 @@
+﻿CSS de Pseudo(Sözde) özellikler:
+
+Kullanıldıklarında beraber kullanıldığı elementlere ek bazı özellikler kazandır.
+
+Örnek olarak p tagını ele alırsak;
+
+::after -> p::after -> p taginin içeriği bittiği zaman devreye giren bir özellik.
+
+::before -> p::before -> p tagı başlamadan önce devreye girer..
+
+::first-letter -> p::first-letter -> p tag içeriğindeki ilk harfini seçmek için..
+
+::first-line -> p::first-line -> p tag içeriğindeki ilk satırı seçer
+
+::selection -> p::selection -> Kullanıcı tarafından p tagının içinde seçilen bir bölge için devreye girer.
+
+:active -> Bağlantı elemanlarıyla ilgili <a>
+
+:checked -> select türü yapılarda seçilmiş elemanın özellikleri

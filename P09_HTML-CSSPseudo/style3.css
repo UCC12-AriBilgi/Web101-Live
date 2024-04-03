@@ -1,0 +1,55 @@
+﻿body {
+}
+
+input:disabled{
+    background:#cccccc;
+}
+
+input:enabled{
+    background-color:white;
+}
+
+input:focus{
+    background-color:orange;
+}
+
+input:empty{
+    color:aqua;
+    font-weight:bold;
+}
+
+div:empty{
+    height:30px;
+    background-color:burlywood;
+}
+
+/*index3 2.örnek */
+p:first-child{
+    font-size:xx-large;
+}
+
+p:first-child b{
+    color:red;
+    background-color:red;
+}
+
+/* index3 3.örnek*/
+li:first-of-type{
+    color:red;
+    background-color:silver;
+}
+/* index3 4.örnek*/
+a:hover{
+    background-color:green;
+    color:white;
+    text-transform:uppercase;
+}
+/* index3 5.örnek*/
+#e-mail:invalid{
+    background-color:red;
+    color:white;
+}
+
+
+
+
