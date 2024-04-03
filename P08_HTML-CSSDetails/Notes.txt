@@ -1,0 +1,5 @@
+﻿CSS tarafında ID ve Class arasındaki fark
+
+* ID eğer belirtirsem sayfa içersinde bu tek olmak zorunda. Aynı ID tanımında baska bir ID tanımı yapamıyorum.Benzersiz bir kimlik tanımı.
+
+* Class birden fazla element için kullabilir.

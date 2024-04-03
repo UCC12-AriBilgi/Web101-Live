@@ -1,0 +1,44 @@
+﻿body {
+}
+
+#baslik{
+    background-color:red;
+    color:white;
+}
+
+#paragraf{
+    background-color:blue;
+    color:white;
+}
+
+.orange{
+    background-color:orange;
+    
+}
+
+.blue{
+    color:blue;
+}
+
+.yellow{
+    color:yellow;
+}
+
+.baslik{
+    font-size:36px;
+    text-align:center;
+}
+
+.arkaplan{
+    background-color:yellow;
+}
+
+.yazitipi{
+    font-style:italic;
+}
+
+.paragraf{
+    color:blue;
+    font-size:16px;
+}
+
